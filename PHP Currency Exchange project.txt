@@ -1,0 +1,36 @@
+<?php
+$riel = 2103942;
+$kyat = 19092;
+$kroner = 109;
+$lek = 9094;
+echo $riel . "\n$kyat" . "\n$kroner" . "\n$lek";
+$r_us = 0.00025;
+$ky_us = 0.00061;
+$kr_us = 0.11;
+$l_us = 0.0097;
+echo "\nAfter Exchange to USD";
+$riel_us = $riel * $r_us;
+$kyat_us = $kyat * $ky_us;
+$kroner_us = $kroner * $kr_us;
+$lek_us = $lek * $l_us;
+echo "\n";
+echo "Riel to USD" . "\t$riel_us";
+echo "\n";
+echo "Kyat to USD" . "\t$kyat_us";
+echo "\n";
+echo "Kroner to USD" . "\t$kroner_us";
+echo "\n";
+echo "Lek to USD" . "\t$lek_us";
+
+echo "\n After flat fee";
+echo "\n" . --$riel_us;
+echo "\n" . --$kyat_us;
+echo "\n" . --$kroner_us;
+echo "\n" . --$lek_us;
+?>
+
+
+
+  
+
+
