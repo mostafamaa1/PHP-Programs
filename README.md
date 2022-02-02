@@ -10,4 +10,6 @@ Getting Started with PHP
 -
 -
 4- PHP and Html can work together in .php file
+-
+-
 This repository contains Simple PHP programs to help beginners 
